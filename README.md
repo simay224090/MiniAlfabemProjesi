@@ -1,16 +1,12 @@
-# ders_1
+Mini Alfabem Projesi
+İlkokul ve okul öncesi çocuklara yönelik geliştirmiş olduğumuz uygulama çocukların erken yaşta harfleri doğru bir şekilde öğrenip telaffuz etmesini sağlamak ve ileride harfleri söyleme konusunda zorluk ve engelleri aşmalarına yardımcı olmaya yöneliktir.
 
-A new Flutter project.
+Kullanılan Teknoloji ve Kütüphaneler
+Flutter: Uygulama arayüzü ve etkileşimli bileşenler oluşturmak için kullanılır.
+flutter_sound:Flutter için ses kaydı ve çalma işlemleri yapabilen bir kütüphanedir.FlutterSoundRecorder sınıfı kullanılmıştır. Ses kaydetme, durdurma ve dosyaya yazma gibi işlevler gerçekleştirilir.
+permission_handler: Uygulamanızda gerekli izinleri istemek ve kontrol etmek için kullanılan bir kütüphanedir. Mikrofon izni almak için Permission.microphone.request() metodu ile kullanılır. Bu, ses kaydı için gere tflite_flutter: TensorFlow Lite modellerini Flutter uygulamalarında kullanabilmek için geliştirilmiş bir kütüphanedir. TensorFlow Lite modeli yüklemek ve çalıştırmak için Interpreter sınıfı kullanılmıştır. Ses kaydı ile elde edilen verileri işlemek için makine öğrenimi modeli kullanılır.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ Özellikler
+- **Harfleri Dinleyelim Butonu**: Çocuklar harflerin doğru telaffuzlarını dinler.
+- **Harfleri Seslendirelim Butonu**: Çocuklar, harfleri seslendirerek doğru veya yanlış olup olmadığını öğrenir.
+- **Harf Testi Butonu**: Rastgele harf sesleri dinletilir ve çocuklar duydukları harfi yanıtlar.
